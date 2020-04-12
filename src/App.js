@@ -28,6 +28,7 @@ function App() {
     const newRepositories = repositories.filter(
       (repository) => repository.id !== id
     );
+
     setRepositories(newRepositories);
   }
 
